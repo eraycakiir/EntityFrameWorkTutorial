@@ -11,11 +11,13 @@ namespace DataBaseFirst.DAL
     {
         public DbSet<Product> Products { get; set; }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-TP2LRU1\\SQLEXPRESS;Initial Catalog=EfCore-DatabaseFirst;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        public AppDbContext() 
+        { 
 
         }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+
+        } 
     }
 }

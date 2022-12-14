@@ -54,3 +54,10 @@ D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBase
 D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\obj\Debug\net6.0\DataBaseFirst.pdb
 D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\obj\Debug\net6.0\DataBaseFirst.genruntimeconfig.cache
 D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\obj\Debug\net6.0\ref\DataBaseFirst.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\EntityFramework\EntityFrameWorkTutorial\Database-First\DataBaseFirst\DataBaseFirst\bin\Debug\net6.0\DAL\appsettings.json
