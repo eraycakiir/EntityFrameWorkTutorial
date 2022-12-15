@@ -18,5 +18,21 @@ namespace Code_First.DAL
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString ("SqlCon"));  
         }
 
+        public override int SaveChanges()
+        {
+            ChangeTracker.Entries().ToList().ForEach(e =>
+            {
+                if(e.Entity is Product p) 
+                
+                {
+                    if(e.State == EntityState.Added) 
+                    {
+                        p.CreateDate = DateTime.Now;    
+                    }
+                }
+            });
+            return base.SaveChanges();
+        }
+
     }
 }
